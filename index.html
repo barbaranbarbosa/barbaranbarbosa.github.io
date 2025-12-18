@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Currículo | Portfolio</title>
+  <style>
+    :root {
+      --bg: #1e1e1e;
+      --card: #252526;
+      --text: #f5f5f5;
+      --muted: #b0b0b0;
+      --primary: #7c7cff;   /* azul arroxeado */
+      --secondary: #3ddc97; /* verde suave */
+      --accent: #ff6b6b;    /* vermelho sutil */
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen;
+    }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    a {
+      color: var(--primary);
+      text-decoration: none;
+    }
+
+    a:hover {
+      color: var(--secondary);
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    header {
+      margin-bottom: 40px;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      color: var(--muted);
+    }
+
+    .links {
+      margin-top: 10px;
+    }
+
+    .links a {
+      margin-right: 15px;
+      font-weight: 500;
+    }
+
+    section {
+      background: var(--card);
+      padding: 25px;
+      border-radius: 12px;
+      margin-bottom: 25px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+    }
+
+    section h2 {
+      font-size: 1.4rem;
+      margin-bottom: 15px;
+      color: var(--primary);
+    }
+
+    .experience h3 {
+      font-size: 1.1rem;
+      margin-bottom: 5px;
+    }
+
+    .experience span {
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+
+    ul {
+      margin-top: 10px;
+      padding-left: 20px;
+    }
+
+    ul li {
+      margin-bottom: 8px;
+    }
+
+    .skills {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 15px;
+    }
+
+    .skill-box {
+      background: #2e2e2e;
+      padding: 15px;
+      border-radius: 10px;
+      border-left: 4px solid var(--secondary);
+    }
+
+    footer {
+      text-align: center;
+      color: var(--muted);
+      font-size: 0.85rem;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>BARBARA BARBOSA</h1>
+      <p>São Paulo, SP</p>
+      <div class="links">
+        <a href="https://www.linkedin.com/in/barbara-nascimento-barbosa/" target="_blank">LinkedIn</a>
+        <a href="https://github.com/barbaranbarbosa" target="_blank">GitHub</a>
+      </div>
+    </header>
+
+    <section>
+      <h2>Objetivo</h2>
+      <p>
+        Atuar na área de tecnologia com foco em dados, aplicando conhecimentos em Python, SQL e ferramentas complementares para manipular, interpretar e comunicar dados, contribuindo com o desenvolvimento de soluções reais e eficientes.
+      </p>
+    </section>
+
+    <section class="experience">
+      <h2>Experiência Profissional</h2>
+      <h3>Suporte Técnico — DS Trade</h3>
+      <span>02/2025 – 10/2025</span>
+      <ul>
+        <li>Atendimento ao cliente: alinhamento de pedidos, elaboração de orçamentos e análise de bugs;</li>
+        <li>Documentação técnica: elaboração de relatórios e especificações de projetos;</li>
+        <li>Testes e validação de EAs e indicadores (backtest e execução em tempo real);</li>
+        <li>Condução de reuniões diárias de alinhamento e distribuição de tarefas;</li>
+        <li>Criação e manutenção de banco de dados MySQL;</li>
+        <li>Desenvolvimento de automações internas em Python;</li>
+        <li>Ajustes pontuais em MQL4 e MQL5.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Formação Acadêmica</h2>
+      <ul>
+        <li><strong>Ciência de Dados (Tecnólogo)</strong> — Universidade Cidade de São Paulo (em andamento)</li>
+        <li><strong>Odontologia (Bacharelado)</strong> — Universidade Camilo Castelo Branco (2018)</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Cursos Complementares</h2>
+      <ul>
+        <li><strong>Excel – Planilhas Interativas e Dashboards</strong> (Senac, 2025)<br/>Power Query, Power Pivot, Tabela Dinâmica, Macros, Dashboards</li>
+        <li><strong>Formação Python</strong> (One Bit Code, 2024)<br/>Fundamentos, Automação, Web, Análise de Dados</li>
+        <li><strong>Bootcamp Ciência de Dados com Python</strong> (Santander, 2023)<br/>Git, GitHub, Python, SQL, NoSQL, Power BI, Machine Learning</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Habilidades Técnicas</h2>
+      <ul>
+        <li><strong>Linguagens:</strong> Python e SQL; noções de R, HTML e CSS;</li>
+        <li><strong>Automação:</strong> scripts em Python para automatizar processos;</li>
+        <li><strong>Desenvolvimento Web:</strong> familiaridade com Django, Flask e APIs;</li>
+        <li><strong>Análise de Dados:</strong> integração com bancos de dados, manipulação e visualização;</li>
+        <li><strong>Ferramentas:</strong> Excel, Git, GitHub; bibliotecas Python (pandas, numpy, matplotlib).</li>
+      </ul>
+    </section>
+
+    <footer>
+      © 2025 — Currículo Web | GitHub Pages
+    </footer>
+  </div>
+</body>
+</html>
